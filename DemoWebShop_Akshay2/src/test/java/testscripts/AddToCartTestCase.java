@@ -44,7 +44,7 @@ public class AddToCartTestCase extends BaseTest {
 		// Step 11: validate shopping cart page is displayed or not
 		Assert.assertEquals(driver.getTitle(), "Demo Web Shop. Shopping Cart","Shopping cart page not displayed");
 		Reporter.log("Shopping Cart page displayed",true);
-
+		Assert.fail();
 		List<WebElement> cartProducts = driver.findElements(By.xpath("//tr[@class='cart-item-row']"));
 
 		// Step 12: Validate the number of products in shopping cart
