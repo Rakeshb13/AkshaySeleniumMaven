@@ -1,7 +1,10 @@
 package testscripts;
 
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.TreeSet;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -18,7 +21,9 @@ public class AddToCartTestCase extends BaseTest {
 
 	@Test(groups = "smoke")
 	public void addToCartTestCase() throws InterruptedException {
-	
+	//
+		//
+		//Jenkins Update
 		// Step 6 : To navigate to Digital downloads
 		driver.findElement(By.partialLinkText("Digital downloads")).click();
 
@@ -40,7 +45,7 @@ public class AddToCartTestCase extends BaseTest {
 
 		// Step 10: To navigate to shopping cart
 		driver.findElement(By.xpath("//span[text()='Shopping cart']")).click();
-
+		
 		// Step 11: validate shopping cart page is displayed or not
 		Assert.assertEquals(driver.getTitle(), "Demo Web Shop. Shopping Cart","Shopping cart page not displayed");
 		Reporter.log("Shopping Cart page displayed",true);

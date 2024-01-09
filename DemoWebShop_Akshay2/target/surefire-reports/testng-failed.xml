@@ -3,6 +3,19 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
+      <class name="testscripts.EmptyCartTestCase">
+        <methods>
+          <include name="afterTest"/>
+          <include name="performLogin"/>
+          <include name="beforeTest"/>
+          <include name="launchBrowser"/>
+          <include name="emptyCartTestCase"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="closeBrowser"/>
+          <include name="performLogout"/>
+        </methods>
+      </class> <!-- testscripts.EmptyCartTestCase -->
       <class name="testscripts.AddToCartTestCase">
         <methods>
           <include name="afterTest"/>

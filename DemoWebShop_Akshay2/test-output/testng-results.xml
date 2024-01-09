@@ -1,17 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Digital downloads page is displayed]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-12-27T12:17:08 IST" name="Default suite" finished-at="2023-12-27T12:17:08 IST" duration-ms="44">
+  <suite started-at="2024-01-09T09:45:35 IST" name="Default suite" finished-at="2024-01-09T09:45:50 IST" duration-ms="15131">
     <groups>
+      <group name="smoke">
+        <method signature="AddToCartTestCase.addToCartTestCase()[pri:0, instance:testscripts.AddToCartTestCase@4c371370]" name="addToCartTestCase" class="testscripts.AddToCartTestCase"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-12-27T12:17:08 IST" name="Default test" finished-at="2023-12-27T12:17:08 IST" duration-ms="44">
-      <class name="testscripts.MavenParameter">
-        <test-method signature="mavenParameter()[pri:0, instance:testscripts.MavenParameter@2a798d51]" started-at="2023-12-27T12:17:08 IST" name="mavenParameter" finished-at="2023-12-27T12:17:08 IST" duration-ms="9" status="PASS">
+    <test started-at="2024-01-09T09:45:35 IST" name="Default test" finished-at="2024-01-09T09:45:50 IST" duration-ms="15131">
+      <class name="testscripts.AddToCartTestCase">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testscripts.AddToCartTestCase@4c371370]" started-at="2024-01-09T09:45:35 IST" name="beforeSuite" finished-at="2024-01-09T09:45:35 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mavenParameter -->
-      </class> <!-- testscripts.MavenParameter -->
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testscripts.AddToCartTestCase@4c371370]" started-at="2024-01-09T09:45:35 IST" name="beforeTest" finished-at="2024-01-09T09:45:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testscripts.AddToCartTestCase@4c371370]" started-at="2024-01-09T09:45:35 IST" name="launchBrowser" finished-at="2024-01-09T09:45:39 IST" duration-ms="3831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="performLogin()[pri:0, instance:testscripts.AddToCartTestCase@4c371370]" started-at="2024-01-09T09:45:39 IST" name="performLogin" finished-at="2024-01-09T09:45:40 IST" duration-ms="1335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="addToCartTestCase()[pri:0, instance:testscripts.AddToCartTestCase@4c371370]" started-at="2024-01-09T09:45:40 IST" name="addToCartTestCase" finished-at="2024-01-09T09:45:49 IST" duration-ms="8697" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Digital downloads page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addToCartTestCase -->
+        <test-method is-config="true" signature="performLogout()[pri:0, instance:testscripts.AddToCartTestCase@4c371370]" started-at="2024-01-09T09:45:49 IST" name="performLogout" finished-at="2024-01-09T09:45:50 IST" duration-ms="1106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testscripts.AddToCartTestCase@4c371370]" started-at="2024-01-09T09:45:50 IST" name="closeBrowser" finished-at="2024-01-09T09:45:50 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testscripts.AddToCartTestCase@4c371370]" started-at="2024-01-09T09:45:50 IST" name="afterTest" finished-at="2024-01-09T09:45:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testscripts.AddToCartTestCase@4c371370]" started-at="2024-01-09T09:45:50 IST" name="afterSuite" finished-at="2024-01-09T09:45:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testscripts.AddToCartTestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
