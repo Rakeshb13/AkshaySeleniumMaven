@@ -23,7 +23,6 @@ public class AddToCartTestCase extends BaseTest {
 	public void addToCartTestCase() throws InterruptedException {
 	//
 		//
-		//Jenkins Update
 		// Step 6 : To navigate to Digital downloads
 		driver.findElement(By.partialLinkText("Digital downloads")).click();
 
